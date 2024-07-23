@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 3</title>
+
+    <style>
+        body {
+            display: grid;
+            place-content: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <h2>
+                Resultado: <span class="resultado"></span>
+            </h2>
+            <div>
+                <div>
+                    <div>
+                        <label for="valor1">Valor 1</label>
+                        <input id="valor1" type="number">
+                    </div>
+                    <div>
+                        <label for="valor2">Valor 2</label>
+                        <input id="valor2" type="number">
+                    </div>
+                    <div style="display: flex;gap: 1rem;margin-top: 1rem;">
+                        <button id="btn-sumar" type="button" style="flex: 1;background-color: lightgreen;">
+                            Sumar +
+                        </button>
+                        <button id="btn-restar" type="button" style="flex: 1;background-color: lightcoral">
+                            Restar -
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
