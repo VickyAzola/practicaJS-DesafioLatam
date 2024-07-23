@@ -10,7 +10,7 @@ Este proyecto consiste en un formulario de contacto básico con validación del 
 2. **Mensajes de Error**: Se muestran mensajes de error específicos debajo de cada campo si la validación falla.
 3. **Mensaje de Éxito**: Se muestra un mensaje de éxito si todos los campos pasan la validación.
 
-## Ejercicio 2: Cambio de backgroun-color on click
+## Ejercicio 2: Cambio de background-color on click
 
 Este proyecto presenta una interfaz sencilla que permite al usuario seleccionar un color de una paleta de colores predefinida y aplicarlo a un área de visualización.
 
