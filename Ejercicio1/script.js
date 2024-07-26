@@ -28,7 +28,7 @@ let form = document.getElementById("formulario").addEventListener("submit", (eve
 //funcion de validacion toma parametros que se entregaran al hacer submit
 function formValidation(fullName, asunto, mensaje) {
   //regex para verificar que los campos usen solo el alfabeto
-  let regex = /[a-z]/i
+  let regex = /^[a-zA-Z]+$/
 
   //variable boolena para determinar si el form es valido o no
   let formValid = true
